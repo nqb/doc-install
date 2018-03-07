@@ -34,7 +34,7 @@ Update
 
 An update script is provided as well (``scripts/cliupdate.php``).
 
-There is no required arguments, just run the script so it updates your database automatically.
+There is no required arguments, just run the script so it updates your database automatically and disables plugin(s) before.
 
 .. warning::
 
@@ -47,3 +47,4 @@ Possible options for this command are:
  * ``--config-dir`` set configuration file path to use,
  * ``--force`` force update, usefull when GLPI version does not change (mainly when working on it ;)),
  * ``--dev`` required to use a development version. Usei it with cautions...
+
